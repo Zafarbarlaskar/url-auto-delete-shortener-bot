@@ -399,4 +399,4 @@ async def get_shortlink(link):
 
     except Exception as e:
         logger.error(e)
-        return f'{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&link={link}'
+        return f'{https://shareus.io}/api?api={LQQbjTVRWabF6jlpZ3wWruTOje2}&link={shareus.io}'

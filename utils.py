@@ -382,7 +382,7 @@ async def get_shortlink(link):
     if "http" == https:
         https = "https"
         link = link.replace("http", https)
-    url = f'https://Clicksfly.com/api'
+    url = f'https://shareus.io'
     params = {'api': URL_SHORTNER_WEBSITE_API,
               'url': link,
               }
@@ -395,7 +395,7 @@ async def get_shortlink(link):
                     return data['shortenedUrl']
                 else:
                     logger.error(f"Error: {data['message']}")
-                    return f'https://Shareus/api?api={iLQQbjTVRWabF6jlpZ3wWruTOje2}&link={ https://shareus.io/pub/tools}'
+                    return f'{LQQbjTVRWabF6jlpZ3wWruTOje2}&link={shareus.io}'
 
     except Exception as e:
         logger.error(e)
